@@ -25,6 +25,7 @@ export const PlasmicHomepage__ArgProps = new Array();
 
 function PlasmicHomepage__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  console.log(props)
   return (
     <React.Fragment>
       <div className={defaultcss.plasmic_page_wrapper}>
@@ -56,7 +57,7 @@ function PlasmicHomepage__RenderFunc(props) {
               sty.box___2HbQf
             )}
           >
-            {"Welcome to your first page."}
+            {/* {this.props.msg} */}
           </div>
         </div>
       </div>

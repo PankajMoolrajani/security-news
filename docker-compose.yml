@@ -1,0 +1,13 @@
+version: '3'
+services:
+  security-news:
+    build: .
+    image: security-news
+    container_name: security-news
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app
+    environment:
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+    command: /bin/sleep 216000

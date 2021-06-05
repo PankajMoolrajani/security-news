@@ -18,7 +18,11 @@ function Homepage_(props, ref) {
   //
   // By default, we are just piping all HomepageProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicHomepage root={{ ref }} {...props} />;
+  // props['msg'] = "hello from props !"
+
+  console.log(props)
+
+  return <PlasmicHomepage root={{ ref }} msg={"hellow world !"} />;
 }
 
 const Homepage = React.forwardRef(Homepage_);
