@@ -40,12 +40,20 @@ function PlasmicHomepage__RenderFunc(props) {
           )}
         >
           <div
-            data-plasmic-name={"box"}
-            data-plasmic-override={overrides.box}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box
+              sty.box__jTOj0
+            )}
+          >
+            {"Welcome to your first page."}
+          </div>
+
+          <div
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box___2HbQf
             )}
           >
             {"Welcome to your first page."}
@@ -57,8 +65,7 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"]
+  root: ["root"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -92,7 +99,6 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps
