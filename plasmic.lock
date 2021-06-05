@@ -25,6 +25,16 @@
           "assetId": "bVAz8WHmYGwiGFKe7AsHFW",
           "type": "projectCss",
           "checksum": "88aa2e911668ed4fb2f2bf6ee7ff99a4"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "hOLst-QVtD",
+          "checksum": "3f65e75e953ae68eb5bf0c2070659da1"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "hOLst-QVtD",
+          "checksum": "3f65e75e953ae68eb5bf0c2070659da1"
         }
       ]
     }

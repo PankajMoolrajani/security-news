@@ -39,6 +39,19 @@
           "cssFilePath": "plasmic/security_news/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "hOLst-QVtD",
+          "name": "Login",
+          "type": "managed",
+          "projectId": "bVAz8WHmYGwiGFKe7AsHFW",
+          "renderModuleFilePath": "plasmic/security_news/PlasmicLogin.jsx",
+          "importSpec": {
+            "modulePath": "Login.jsx"
+          },
+          "cssFilePath": "plasmic/security_news/PlasmicLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [],
